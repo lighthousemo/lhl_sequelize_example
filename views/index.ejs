@@ -1,1 +1,7 @@
-<h1><%= greeting %></h1>
+<h1>Users</h1>
+
+<ul>
+<% users.forEach((user) => { %>
+  <li><%= user.email %></li>
+<% }) %>
+</ul>
